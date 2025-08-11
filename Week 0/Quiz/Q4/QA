@@ -1,0 +1,7 @@
+Q:(q0q4.png)
+What is the value of the root node?
+
+Ans:
+Red player chooses between options to minimize the score while green one to maximize it.
+So after red ones chose we would have (green1,empty)((red1,5),(red2,1),(red3,2))
+And after that the green1 or the root one would choose the maximum which would be 5.
