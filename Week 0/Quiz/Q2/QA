@@ -1,0 +1,20 @@
+Q:
+Of the four search algorithms discussed in lecture — depth-first search, breadth-first search, greedy best-first search with Manhattan distance heuristic, and A* search with Manhattan distance heuristic — which one (or multiple, if multiple are possible) could be the algorithm used?
+
+Could only be A*
+Could only be greedy best-first search
+Could only be DFS **answer**
+Could only be BFS
+Could be either A* or greedy best-first search
+Could be either DFS or BFS
+Could be any of the four algorithms
+Could not be any of the four algorithms
+
+Ans:
+It cannot be A* or greed best-first search since when it came to make a decision between up or down in tile X (X.png),it chose the down one
+which means it did not use Manhattan distance heuristic where the closest one would be chosen.(for A* search both of the decisions
+are 8 tiles away from the start,so Manhattan distance heuristic becomes the changing factor between them)
+
+It cannot be BFS since in X tile(X.png),it makes a decision and does not search the other decision till it ends the one chosen first.
+So,the most suitable one for this search output would be DFS only.
+
