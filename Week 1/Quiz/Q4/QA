@@ -13,4 +13,4 @@ Which of the following is a first-order logic translation of the sentence “The
 Intuition:
 "There is a" statement means that such course does exist, which implies that we are going to use "existential" symbol in our statement.
 The statements other than the first two does not even check if x is a course, and second statement uses "all" symbol which is incorrect.
-So the answer would be Course(x) ∧ Enrolled(Harry, x) ∧ Enrolled(Hermione, x)
+So this leaves us with answer Course(x) ∧ Enrolled(Harry, x) ∧ Enrolled(Hermione, x) as the suitable one.
