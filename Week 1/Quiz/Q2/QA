@@ -1,0 +1,24 @@
+Q:
+There are other logical connectives that exist, other than the ones discussed in lecture. 
+One of the most common is “Exclusive Or” (represented using the symbol ⊕). The expression 
+A ⊕ B represents the sentence “A or B, but not both.” 
+
+Which of the following is logically equivalent to A ⊕ B?
+
+(A ∨ B) ∧ ¬ (A ∧ B) **answer**
+(A ∧ B) ∨ ¬ (A ∨ B)
+(A ∨ B) ∧ (A ∧ B)
+(A ∨ B) ∧ ¬ (A ∨ B) 
+
+Ans:
+Exclusive Or(⊕) is same as normal Or(V) in terms of outputs they give, except that exclusive or gives false when
+both of the statements are true.So our statement for A ⊕ B should include (A V B) and another
+statement in addition that makes the final statement false when both A and B is true,but at the same time
+this other statement should not effect the result of other cases for (A V B).
+
+We want this statement to have a distinct results when both of the symbols are true,so that we can
+effect the result only when both of the symbols are true.Such statements can be either (A ∧ B) or (¬A V ¬B).
+Also,statement we choose should be connected to (A V B) with an ∧, because we want to affect
+the result when both A and B is true.
+
+Considering these: Answer is (A ∨ B) ∧ (¬A V ¬B),equivalently (A ∨ B) ∧ ¬(A ∧ B)
