@@ -1,0 +1,30 @@
+Q:
+Consider these logical sentences:
+
+1.If Hermione is in the library, then Harry is in the library.
+2.Hermione is in the library.
+3.Ron is in the library and Ron is not in the library.
+4.Harry is in the library.
+5.Harry is not in the library or Hermione is in the library.
+6.Ron is in the library or Hermione is in the library.
+
+Which of the following logical entailments is true?
+
+a.Sentence 6 entails Sentence 2
+b.Sentence 1 entails Sentence 4
+c.Sentence 6 entails Sentence 3
+d.Sentence 2 entails Sentence 5 **answer**
+e.Sentence 1 entails Sentence 2
+f.Sentence 5 entails Sentence 6
+
+Ans:
+According to definition of entailment, if A entails B where A and B might be any propositional logic statement,
+if A is true then B must be true as well for all the models (all the possiblities of symbols used in A and B).
+
+a.(Ron V Hermione) entails Hermione, is not true since Ron = true,Hermione = false does not satisfy the entailment condition
+b.(Hermione --> Harry) entails Harry, is not true since Hermione = false,Harry = false does not satisfy the entailment condition
+c.(Ron V Hermione) entails (Ron ⋀ ⌐Ron), is not true since (Ron ⋀ ⌐Ron) is false regardless
+d.Hermione --> (⌐Harry V Hermione), is true since it satisfies the entailment condition which for all the possibilities of Hermione and Harry,
+(⌐Harry V Hermione) is true when Hermione is true
+e.(Hermione --> Harry) entails Hermione, is not true since Hermione = false does not satisfy the entailment condition
+f.(⌐Harry V Hermione) entails (Ron V Hermione), is not true since Harry = false, Hermione = false, Ron = false does not satisfy the entailment condition
